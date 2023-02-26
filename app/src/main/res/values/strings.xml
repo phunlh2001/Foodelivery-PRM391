@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Foodator</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="login_text">Login</string>
+    <string name="title">Food Delivery App</string>
+    <string name="back_to_home">Back</string>
+</resources>
