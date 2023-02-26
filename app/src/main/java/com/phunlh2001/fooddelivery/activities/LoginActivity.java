@@ -1,4 +1,4 @@
-package com.phunlh2001.fooddelivery.Activities;
+package com.phunlh2001.fooddelivery.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

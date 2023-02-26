@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.LoginActivity">
+    tools:context=".activities.LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="722dp"
         android:layout_margin="10sp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
         <ImageView
             android:layout_width="329dp"
             android:layout_height="241dp"
             android:layout_gravity="center"
+            android:contentDescription="@string/image_description_home"
             android:src="@drawable/image_banner" />
 
         <TextView
@@ -35,12 +36,13 @@
             android:layout_marginTop="5dp">
 
             <EditText
-                android:id="@+id/userEmail"
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/user_name"
                 android:inputType="text"
                 android:textColor="@color/red"
+                android:autofillHints="name"
                 android:textSize="18sp" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -56,6 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
+                android:autofillHints="name"
                 android:inputType="textPassword"
                 android:textColor="@color/red"
                 android:textSize="18sp" />

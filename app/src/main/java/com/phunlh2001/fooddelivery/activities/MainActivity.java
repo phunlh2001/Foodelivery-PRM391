@@ -1,10 +1,9 @@
-package com.phunlh2001.fooddelivery.Activities;
+package com.phunlh2001.fooddelivery.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.WindowMetrics;
 import android.widget.Button;
 
 import com.phunlh2001.fooddelivery.R;
