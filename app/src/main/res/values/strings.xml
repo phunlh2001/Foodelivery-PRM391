@@ -5,4 +5,5 @@
     <string name="login_text">Login</string>
     <string name="title">Food Delivery App</string>
     <string name="back_to_home">Back</string>
+    <string name="image_description_home">Background Image</string>
 </resources>
