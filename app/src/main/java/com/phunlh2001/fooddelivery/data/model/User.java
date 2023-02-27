@@ -1,7 +1,6 @@
 package com.phunlh2001.fooddelivery.data.model;
 
 import android.arch.persistence.room.*;
-
 import lombok.*;
 
 @Setter
@@ -13,7 +12,7 @@ public class User {
     @NonNull
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
-    private long ID;
+    private int ID;
     @ColumnInfo(name = "first_name")
     private String firstName;
     @ColumnInfo(name = "last_name")
