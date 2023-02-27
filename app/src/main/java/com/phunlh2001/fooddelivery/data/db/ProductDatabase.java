@@ -7,7 +7,7 @@ import android.content.Context;
 import com.phunlh2001.fooddelivery.data.dao.ProductDAO;
 import com.phunlh2001.fooddelivery.data.model.Product;
 
-@Database(entities = {Product.class}, version = 1)
+@Database(entities = {Product.class}, version = 2)
 public abstract class ProductDatabase extends RoomDatabase {
     private static ProductDatabase INSTANCE;
 

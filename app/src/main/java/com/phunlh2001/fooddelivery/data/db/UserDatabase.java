@@ -7,7 +7,7 @@ import android.content.Context;
 import com.phunlh2001.fooddelivery.data.dao.UserDAO;
 import com.phunlh2001.fooddelivery.data.model.User;
 
-@Database(entities = {User.class}, version = 1)
+@Database(entities = {User.class}, version = 2)
 public abstract class UserDatabase extends RoomDatabase {
     private static UserDatabase INSTANCE;
 
