@@ -12,8 +12,8 @@ public interface UserDAO {
     @Update
     void update(User... user);
 
-    @Query(value = "DELETE FROM users WHERE id = :id")
-    void delete(int id);
+    @Delete
+    void delete(User user);
 
     @Query(value = "SELECT * FROM users")
     List<User> getAllUser();

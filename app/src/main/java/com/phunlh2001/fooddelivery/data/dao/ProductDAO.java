@@ -1,6 +1,7 @@
 package com.phunlh2001.fooddelivery.data.dao;
 
 import android.arch.persistence.room.Dao;
+import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Update;
@@ -15,8 +16,8 @@ public interface ProductDAO {
     @Update
     void update(Product... product);
 
-    @Query("DELETE FROM products WHERE id = :id")
-    void delete(int id);
+    @Delete
+    void delete(Product product);
 
     @Query("SELECT * FROM products")
     List<Product> getAllProducts();
