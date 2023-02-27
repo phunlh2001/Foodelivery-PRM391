@@ -1,9 +1,7 @@
 package com.phunlh2001.fooddelivery.data.dao;
 
 import android.arch.persistence.room.*;
-
 import com.phunlh2001.fooddelivery.data.model.User;
-
 import java.util.List;
 
 @Dao
